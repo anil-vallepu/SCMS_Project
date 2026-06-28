@@ -14,8 +14,10 @@ def welcome():
         print("Welcome to Smart Campus Management System")
         print("= = = = LOGIN PAGE = = = =")
         print("--------------")
-        prinr("Thank you")
-
+        print("Thank you")
+    def retry():
+        print("Please try again.")
+    .
 
 
 
