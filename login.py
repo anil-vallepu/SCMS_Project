@@ -26,7 +26,7 @@ def welcome():
     print("Status:",login_status)
     def login():
         pass
-
+    print("SMART CAMPUS MANAGEMENT SYSTEM")
 
 
 
