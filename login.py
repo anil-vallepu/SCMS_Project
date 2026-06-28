@@ -27,7 +27,11 @@ def welcome():
     def login():
         pass
     print("SMART CAMPUS MANAGEMENT SYSTEM")
-    print("Access Granted"
+    print("Access Granted")
+    print("Access Denied")
+
+
+
 
 
 
