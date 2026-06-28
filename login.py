@@ -19,7 +19,9 @@ def welcome():
         print("Please try again.")
     if len(entered_username) == 0:
         print("Username cannot be empty")
-        c
+    if len(entered_password) == 0:
+        print("Password cannot be empty")
+
 
 
 
