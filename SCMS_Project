@@ -2,6 +2,6 @@
 username="admin"
 password="1234"
 entered_username=input("Enter Username:")
-
+entered_password=input("Enter Passpassword
 
 
