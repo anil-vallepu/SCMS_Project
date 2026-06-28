@@ -1,9 +1,11 @@
 #Login Module
 username="admin"
 password="1234"
+login_status = False
 entered_username=input("Enter Username:")
 entered_password=input("Enter Password:")
 if entered_username == username and entered_password == password:
+    login_status = True      
     print("Login Succesful")
 
 else:
@@ -21,7 +23,7 @@ def welcome():
         print("Username cannot be empty")
     if len(entered_password) == 0:
         print("Password cannot be empty")
-
+      
 
 
 
