@@ -35,5 +35,5 @@ def display_student():
     else:
         print("Invalid Choice")
     print("-------------------------------")
-
+    print("Attendance Module Ready"
 
