@@ -8,6 +8,8 @@ def menu():
     print("4.Exit")
     menu()
     choice = input("Enter your choice:")
-
-
+    def mark_attendance():
+        name = input("Enter Student Name: ")
+    
+    
 
