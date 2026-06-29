@@ -21,5 +21,9 @@ def search_book():
     book = input("Enter Book Name to Search:")
     with open("books.csv","r") as file:
         reader = csv.reader(file)
+        found = False
+    for row in reader:
+        if book == row[0]:
+            found = True
 
 
