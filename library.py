@@ -8,5 +8,7 @@ def menu():
     print("5,Exit")
     menu()
     choice = input("Enter your choice:")
+def add_book():
+    book = input("Enter Book Name:")
 
 
