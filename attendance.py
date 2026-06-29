@@ -32,5 +32,7 @@ def display_student():
     elif choice == "4":
         print("Thank you")
     break
+    else:
+        print("Invalid Choice")
 
 
