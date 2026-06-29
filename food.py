@@ -31,7 +31,10 @@ def calculate_bill():
     elif choice == "4":
         print("Exiting Food Ordering System")
     print("---------------------------")
-        
+    if item == "":
+        print("Food otem cannot be Empty")
+        return
+
 
 
 
