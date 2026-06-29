@@ -6,4 +6,5 @@ def menu():
     print("3.Calculate Bill")
     print("4.Exit")
     menu()
+    choice = input("Enter your choice:")
 
