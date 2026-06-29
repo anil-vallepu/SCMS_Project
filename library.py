@@ -57,6 +57,7 @@ def return_book():
     print("Thank you for using the Libray Management System")
     print("--------------------------------------")
 # Smart Campus Library Module
-                  
+    print("Library Module Ready")
+
 
  
