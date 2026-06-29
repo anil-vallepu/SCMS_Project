@@ -7,5 +7,6 @@ def menu():
     print("4,Return Book")
     print("5,Exit")
     menu()
+    choice = input("Enter your choice:")
 
 
