@@ -41,6 +41,7 @@ def calculate_bill():
         print("Invalid Choice")
     print("Calculating Bill...")
 
+    print("Thank you for visiting the Campus Cafeteria")
 
 
 
