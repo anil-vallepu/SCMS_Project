@@ -13,5 +13,6 @@ def add_book():
     with open("books.csv","a",newline="") as file:
         writer = csv.writer(file)
         writer.writerow([book])
+        print("Book Added Successfully")
 
 
