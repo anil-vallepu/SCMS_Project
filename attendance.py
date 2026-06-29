@@ -22,6 +22,8 @@ def menu():
         present = int(input("Enter Clases Attended:"))
         percentage = (present / total)*100
         print("Attendance Percentage:",percentage,"%")
-
+    elif choice == "2":
+        calculate_attendance()
+            
     
 
