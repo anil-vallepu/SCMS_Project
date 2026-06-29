@@ -29,5 +29,9 @@ def search_book():
             print("Book Found")
         else:
             print("Book Not Found")
-        
-
+       if choice == "1":
+           add_book()
+        elif choice == "2":
+            search_book()
+             
+ 
