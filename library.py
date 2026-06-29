@@ -43,6 +43,8 @@ def return_book():
                print("Book Returned Succesfully")
        elif choice == "4":
                  return_book()
-
+       ekif choice == "5":
+                 print("Exiting Library System...")
+                 
 
  
