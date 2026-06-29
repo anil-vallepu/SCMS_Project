@@ -25,6 +25,8 @@ def menu():
     elif choice == "2":
         calculate_attendance()
 def display_student():
+    with open("attendance.csv","r") as file:
+        reader = csv.reader(file)
 
     
 
