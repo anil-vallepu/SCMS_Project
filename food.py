@@ -42,6 +42,7 @@ def calculate_bill():
     print("Calculating Bill...")
 
     print("Thank you for visiting the Campus Cafeteria")
+    print("Food Module Ready")
 
 
 
