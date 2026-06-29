@@ -27,6 +27,8 @@ def menu():
 def display_student():
     with open("attendance.csv","r") as file:
         reader = csv.reader(file)
+        for row in reader:
+            print("Name:",row[0],"| Status:",row[1])
 
     
 
