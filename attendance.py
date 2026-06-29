@@ -21,6 +21,7 @@ def menu():
         total = int(input("Enter Total Classes: "))
         present = int(input("Enter Clases Attended:"))
         percentage = (present / total)*100
+        print("Attendance Percentage:",percentage,"%")
 
     
 
