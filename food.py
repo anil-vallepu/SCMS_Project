@@ -19,4 +19,6 @@ def place_order():
         writer = csv.writer(file)
         writer.writerow([item])
         print("Order Placed Successfully")
-    
+    elif choice == "2":
+        place_order()
+         
