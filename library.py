@@ -17,5 +17,7 @@ def add_book():
     choice = input("Enter your choice:")
     if choice =="1":
         add_book()
-        
+def search_book():
+    book = input("Enter Book Name to Search:")
+
 
