@@ -1,34 +1,59 @@
-#Login Module
-username="admin"
-password="1234"
-login_status = False
-entered_username=input("Enter Username:")
-entered_password=input("Enter Password:")
-if entered_username == username and entered_password == password:
-    login_status = True      
-    print("Login Succesful")
+# Login Module
 
-else:
-    print("Invalid Usename or Password")
+# Default Username and Password
+username = "admin"
+password = "1234"
+
+login_status = False
+
+
+# Welcome Function
 def welcome():
+    print("\nSMART CAMPUS MANAGEMENT SYSTEM")
+    print("====== LOGIN PAGE ======")
     print("Welcome to Smart Campus Management System")
-    def welcome():
-        print("Welcome to Smart Campus Management System")
-        print("= = = = LOGIN PAGE = = = =")
-        print("--------------")
-        print("Thank you")
-    def retry():
-        print("Please try again.")
-    if len(entered_username) == 0:
-        print("Username cannot be empty")
-    if len(entered_password) == 0:
-        print("Password cannot be empty")
-    print("Status:",login_status)
-    def login():
-        pass
-    print("SMART CAMPUS MANAGEMENT SYSTEM")
-    print("Access Granted")
-    print("Access Denied")
+
+
+# Retry Function
+def retry():
+    print("Please try again.")
+
+
+# Login Function
+def login():
+    global login_status
+
+    entered_username = input("Enter Username: ")
+    entered_password = input("Enter Password: ")
+
+    # Check for empty inputs
+    if entered_username == "":
+        print("Username cannot be empty.")
+        return
+
+    if entered_password == "":
+        print("Password cannot be empty.")
+        return
+
+    # Validate Login
+    if entered_username == username and entered_password == password:
+        login_status = True
+        print("\nLogin Successful")
+        print("Access Granted")
+    else:
+        login_status = False
+        print("\nInvalid Username or Password")
+        print("Access Denied")
+        retry()
+
+    print("Status:", login_status)
+    print("--------------")
+    print("Thank You")
+
+
+# Main Program
+welcome()
+login()
 
 
 
